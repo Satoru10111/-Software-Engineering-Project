@@ -1,7 +1,7 @@
-// 权限问题后期增加
+// 权限问题增加
 import { get, post } from '/@/utils/http/axios';
 import { UserState } from '/@/store/modules/user/types';
-// import axios from 'axios';
+
 enum URL {
     userWishList = '/api/thingWish/getUserWishList',
     wish = '/api/thingWish/wish',
